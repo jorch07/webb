@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #e0b055;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+main.contenedor {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.submodulo {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.submodulo h2 {
+    color: #e0b055;
+    margin-bottom: 10px;
+}
+
+.galeria h3 {
+    margin-top: 30px;
+    color: #e0b055;
+}
+
+.imagenes {
+    display: grid;
+    gap: 15px;
+    margin: 15px 0 30px 0;
+}
+
+.imagenes img {
+    width: 50%;
+    
+}
+
+.volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.volver a:hover {
+    background-color: #e0b055;
+    color: white;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+ 
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.autor-info {
+    display: flex;
+    align-items: center;
+}
+
+.autor-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

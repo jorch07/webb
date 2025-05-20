@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+}
+
+header {
+    background-color: #008000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.modulos {
+
+    padding: 0;
+}
+
+.modulos li {
+    margin: 10px 0;
+}
+
+.modulos a {
+    text-decoration: none;
+    color: #008000;
+}
+
+.modulos a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #008000;
+    padding: 15px;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.autor-info {
+    display: flex;
+    align-items: center;
+}
+
+.autor-info img {
+    width: 70px;
+    height: 70px;
+}
+.cuerpo{
+    margin: 20px;
+}
